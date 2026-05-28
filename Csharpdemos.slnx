@@ -50,4 +50,5 @@
   <Project Path="ReflectionDemo28/ReflectionDemo28.csproj" Id="aaa65bdd-474b-4586-91cf-cdc4d56e79ff" />
   <Project Path="SerializationDemo27/SerializationDemo27.csproj" Id="dbfd0173-88ae-4851-a41e-33995bec58aa" />
   <Project Path="StoreProcedure/StoreProcedure.csproj" Id="0d0f2ed3-709a-470d-94a1-bd380a2d4817" />
+  <Project Path="WEBAPI/WEBAPI.csproj" Id="81b75686-43f3-449e-baaa-4ed46c7625a9" />
 </Solution>

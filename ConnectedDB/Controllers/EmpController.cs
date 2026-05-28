@@ -28,6 +28,10 @@ namespace ConnectedDB.Controllers
         [HttpPost]
         public IActionResult InsertRecord(Emp emp)
         {
+
+            //ModelState checks if class modelbinder has succesfully create emp
+            //class emp class object and succesfully initailizeed that object, so that it can be passed as a parameter to a action method
+            //
             if (ModelState.IsValid)
             {
                 _DbContext.emps.Add(emp);
@@ -57,6 +61,9 @@ namespace ConnectedDB.Controllers
         [HttpPost]   // /Home/UpdateRecord
         public IActionResult UpdateRecord(Emp empTobeEdited)
         {
+            
+
+
             if (ModelState.IsValid)
             {
                 Emp toBeupdated = _DbContext.emps.Find(empTobeEdited.Id);
