@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WEBAPI.Models;
 
 namespace WEBAPI.Controllers
 {
+    [EnableCors(PolicyName="fispl")]
     [Route("api/[controller]")]   // /api/Values
     [ApiController]
     public class ValuesController : ControllerBase

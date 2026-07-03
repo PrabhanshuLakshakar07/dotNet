@@ -1,8 +1,4 @@
-using Microsoft.AspNetCore.Cors.Infrastructure;
-using Microsoft.EntityFrameworkCore;
-using WEBAPI.Models;
-
-namespace WEBAPI
+namespace MyEcommerceWEB_MVC
 {
     public class Program
     {
@@ -12,22 +8,6 @@ namespace WEBAPI
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-            builder.Services.AddDbContext<EmpDbContext>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("conStr"))
-            
-            );
-
-            // CORS
-            builder.Services.AddCors(corsOption =>
-            {
-                corsOption.AddPolicy("fispl", corsPolicy =>
-                {
-                    corsPolicy
-                        .AllowAnyOrigin()
-                        .AllowAnyMethod()
-                        .AllowAnyHeader();
-                });
-            });
 
             var app = builder.Build();
 
@@ -41,8 +21,6 @@ namespace WEBAPI
 
             app.UseHttpsRedirection();
             app.UseRouting();
-
-            app.UseCors();
 
             app.UseAuthorization();
 

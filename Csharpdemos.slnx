@@ -43,6 +43,8 @@
   <Project Path="MultiDelegate_Demo/MultiDelegate_Demo.csproj" Id="68bb9805-f48f-49be-bcc7-2fb85a53e4a3" />
   <Project Path="MVCEmptyDemo/MVCEmptyDemo.csproj" Id="c7630664-2e08-4e0a-bf07-253bca415a6d" />
   <Project Path="MyAttributeLib/MyAttributeLib.csproj" Id="f47fff61-ad6e-4588-8df6-bbe943fae4e9" />
+  <Project Path="MyEcommerceAPI/MyEcommerceAPI.csproj" Id="96b7d222-b97b-4188-b0f0-019674c3c44f" />
+  <Project Path="MyEcommerceWEB_MVC/MyEcommerceWEB_MVC.csproj" Id="9ecda0ea-1844-45c7-b1b5-a250d2cdd815" />
   <Project Path="MyMathLib/MyMathLib.csproj" Id="941b734d-1b97-4c90-a23f-28de141dc023" />
   <Project Path="MyORMDemo30/MyORMDemo30.csproj" Id="22a07c80-fb95-46ef-8982-be904791814b" />
   <Project Path="netflixsystem/netflixsystem.csproj" Id="262cf277-2175-45f9-97f6-74b62600b8cf" />
