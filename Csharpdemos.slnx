@@ -19,6 +19,7 @@
   <Project Path="CompanyLib/CompanyLib.csproj" Id="487ec850-9e79-48f2-8560-8d0644f68d00" />
   <Project Path="ConnectedDB/ConnectedDB.csproj" Id="d258bb54-10cf-4722-97d5-7fcebad7e163" />
   <Project Path="ConnectedDemo_36/ConnectedDemo_36.csproj" Id="5d638485-9d83-4797-81e6-2ed6b5f6a384" />
+  <Project Path="ConsoleEcommercePractice/ConsoleEcommercePractice.csproj" Id="c721afd2-e1fb-4a16-9132-2a43aa926ee3" />
   <Project Path="CSharpFeaturesDemo/CSharpFeaturesDemo.csproj" Id="a18d7301-69d3-4f05-8c2c-88597786a97f" />
   <Project Path="DelegateMethod/DelegateMethod.csproj" Id="2bc45c1e-e762-4f51-af67-79cddb1ec27b" />
   <Project Path="delegatesDemo/delegatesDemo.csproj" Id="494737aa-f73a-48da-97cd-4ffbdcfa5231" />
